@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDogApiProject", "MyDogApiProject.csproj", "{11A8EEA4-E1E6-43EE-9650-D085E654205A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{A3E826F7-1B78-4F16-827D-01BA46F8EEF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{25487D90-60F8-4573-84FC-482892EA7E1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{160EF1E0-09B1-4AB2-AFC9-9E1978B0EF0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerExtensions", "obj\Debug\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{10D79A9D-3196-401F-9D80-B6391852B7BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11A8EEA4-E1E6-43EE-9650-D085E654205A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A8EEA4-E1E6-43EE-9650-D085E654205A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A8EEA4-E1E6-43EE-9650-D085E654205A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A8EEA4-E1E6-43EE-9650-D085E654205A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D79A9D-3196-401F-9D80-B6391852B7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D79A9D-3196-401F-9D80-B6391852B7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D79A9D-3196-401F-9D80-B6391852B7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D79A9D-3196-401F-9D80-B6391852B7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25487D90-60F8-4573-84FC-482892EA7E1C} = {A3E826F7-1B78-4F16-827D-01BA46F8EEF2}
+		{160EF1E0-09B1-4AB2-AFC9-9E1978B0EF0A} = {25487D90-60F8-4573-84FC-482892EA7E1C}
+		{10D79A9D-3196-401F-9D80-B6391852B7BC} = {160EF1E0-09B1-4AB2-AFC9-9E1978B0EF0A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E5CFC3E-E640-4A43-A8D6-879F33038ED0}
+	EndGlobalSection
+EndGlobal
