@@ -1,14 +1,13 @@
-version: '3.8'
 services:
   postgres:
     image: postgres:latest
-    container_name: dogbreeds-postgres
+    container_name: dogbreeds-container
     ports:
-      - "5443:5442"
+      - "5432:5432"
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: "19960908"
-      POSTGRES_DB: DogBreedsDb
+      POSTGRES_DB: postgres
     volumes:
       - postgres_data:/var/lib/postgresql/data
 volumes:
